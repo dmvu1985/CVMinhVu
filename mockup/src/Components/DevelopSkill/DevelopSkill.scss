@@ -1,0 +1,35 @@
+.custom-progress-bars {
+    .progress {
+        float: left;
+        width: 70%;
+        height: 3px;
+        margin-top: 10px;
+        .progress-bar {
+            background-color: #2e353e;
+            overflow: visible !important;
+            background-image: none !important; // overwrites bootstrap
+        }
+    }
+    .progress-label {
+        float: left;
+        width: 30%;
+    }
+}
+
+.custom-md-margin-top-1 {
+    margin-top: 72px;
+}
+
+.flag {
+    width: 16px;
+    height: 11px;
+    background: url(../../images/flags.png) no-repeat;
+}
+
+.flag.flag-es {
+    background-position: -16px -44px;
+}
+
+.box {
+    top: 100px;
+}

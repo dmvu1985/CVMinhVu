@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700);
+
+
+@mixin language-selector($position,$opacity) {
+    height: 30px;
+    width: 100%;
+    padding: auto 5px 0px auto;
+    position: $position;
+    z-index: 9999;
+   // background: #2e353e !important;
+    opacity: $opacity;
+    &:hover {
+        opacity: 1;
+    }
+}
+
+@mixin currency-wrapper($background) {
+    display: block;
+    float: right;
+    margin-right: 0;
+    height: 26px;
+	position: relative;
+	//background: #2e353e !important;
+	background: $background;
+	z-index: 100;
+	a {
+		display: block;
+		width: 100%;
+		font-size: 11px;
+		line-height: 24px;
+		padding: 0 20px 0 10px;
+		color: white;
+		text-transform: uppercase;
+		position: relative;
+		&:hover {
+			color:white;
+		}
+	}
+	.setting-currency {
+		padding: 4px 0;
+		position: 20px;
+		right: 0;
+		top: 26px;
+		width: inherit;
+		z-index: 10;
+		background-color: #fff;
+		visibility: hidden;
+		opacity: 0;
+		border-radius: 3px;
+		-moz-transition: all 0.3s ease-in-out 0s;
+		-webkit-transition: all 0.3s ease-in-out 0s;
+		-o-transition: all 0.3s ease-in-out 0s;
+		-ms-transition: all 0.3s ease-in-out 0s;
+		transition: all 0.3s ease-in-out 0s;
+		li {
+			a {
+				display: block;
+				font-size: 11px;
+				padding: 3px 9px;
+				text-align: left;
+				color: #777 !important;
+				background: white;
+				text-transform: uppercase;
+				text-decoration: none;
+				&:hover{
+					background-color: #ddd;
+				}
+			}
+		}
+	}
+	&:hover {
+		.setting-currency {
+			visibility: visible;
+			opacity: 1;
+			right: 0
+		}
+	}
+}
+
+@media (min-width : 901px){
+	.language-selector {
+		@include language-selector($position: fixed,$opacity: 0.3);
+	}
+	.currency-wrapper {
+		@include currency-wrapper($background: #2e353e !important)
+	}
+}
+@media (max-width : 900px){
+	.language-selector {
+		@include language-selector($position: relative,$opacity: 1);
+	}
+	.currency-wrapper{
+		@include currency-wrapper($background: transparent)
+	}
+}

@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300);
+html {
+    body {
+        width: 100%;
+        overflow: -moz-scrollbars-vertical;
+        overflow-x: hidden;
+        background-color: #FFF;
+        color: #777;
+        font-family: "Open Sans", Arial, sans-serif !important;
+        font-size: 14px;
+        line-height: 22px;
+        margin: 0;
+    }
+
+    h2 {
+        margin-bottom: 17px;
+        font-size: 1.8em;
+    }
+
+    h4 {
+        font-size: 1.4em;
+        font-weight: 400;
+        letter-spacing: normal;
+        line-height: 27px;
+        margin: 0 0 14px 0;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        color: #1d2127;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    blockquote {
+        font-size: 1em;
+    }
+} 
+
+.text-decoration-none {
+    text-decoration: none !important;
+}
+
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+
+.font-weight-extra-bold {
+    font-weight: 900 !important;
+}
+
+html .heading-quaternary, html .lnk-quaternary, html .text-color-quaternary {
+    color: #1f1e1c !important;
+}
+
+html .text-color-dark {
+    color: #2e353e !important;
+}
+
+section.section {
+    padding: 60px 0px;
+}
+
+.font-weight-semibold {
+    font-weight: 600 !important;
+}
+
+.custom-list-style-1 li {
+    list-style: none;
+    span {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 0.9em;
+        &:nth-child(1) {
+            display: inline-block;
+            min-width: 100px;
+        }
+    }        
+}
+
+.custom-list-style-2 li {
+    list-style: none;
+    span {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 0.9em;
+        &:nth-child(1) {
+            display: inline-block;
+            min-width: 120px;
+        }
+    }
+}
+
+.custom-text-color-2 {
+    color: #727c93 !important;
+}
+
+.custom-text-color-3 {
+    color: #4a3b00 !important;
+}
+
+.ml-xlg {
+    margin-left: 30px !important;
+}
+
+.mr-xs {
+    margin-right: 5px !important;
+}
+
+.p-none {
+    padding: 0 !important;
+}
+
+html .background-color-primary {
+    background-color: #ffd93e !important;
+}
+
+html .background-color-secondary {
+    background-color: #ecf1f7 !important;
+}
+
+.custom-background-color-1 {
+    background: #f4f9ff !important;
+}
+
+
+
+.custom-box-shadow-3 {
+    box-shadow: 0 30px 40px -15px #e5edf6;
+}
+

@@ -1,0 +1,80 @@
+.testimonial blockquote {
+    border-radius: 10px;
+    border: 0;
+    color: #666;
+    font-family: Georgia, serif;
+    font-style: italic;
+    margin: 0;
+    padding: 10px 50px;
+    position: relative;
+}
+
+.testimonial.testimonial-with-quotes blockquote:before {
+    color: #2e353e;
+    display: block !important;
+    left: 10px;
+    top: 0;
+    content: "“";
+    font-size: 80px;
+    font-style: normal;
+    line-height: 1;
+    position: absolute;
+}
+.testimonial.testimonial-with-quotes blockquote:after {
+    color: #2e353e;
+    display: block !important;
+    right: 10px;
+    font-size: 80px;
+    font-style: normal;
+    line-height: 1;
+    position: absolute;
+    bottom: -0.5em;
+    content: "”";
+}
+
+.custom-testimonial-style-1 .testimonial-author {
+    position: relative;
+    margin: 19px 0 0 35px;
+}
+
+.custom-testimonial-style-1 .testimonial-author:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -8px;
+    left: 24px;
+    width: 100px;
+    border-top: 1px solid #deb717;
+}
+
+.testimonial .testimonial-author p {
+    margin: 0 0 0 25px;
+}
+
+.testimonial .testimonial-author strong {
+    color: #111;
+    display: block;
+    padding-top: 10px;
+    margin-bottom: -5px;
+}
+
+.custom-testimonial-style-1 blockquote p {
+    font-family: "Open Sans";
+    font-size: 1em;
+    line-height: 1.8;
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+    background: #1f1e1c;
+    &:hover {
+        background: #474747;
+    }
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #1f1e1c;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #fffea8;
+}

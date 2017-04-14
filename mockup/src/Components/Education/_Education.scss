@@ -1,0 +1,23 @@
+
+.owl-carousel {
+	display: none;
+	position: relative;
+	width: 100%;
+    height: 100%;
+}
+
+.custom-box-details-2 {
+    padding: 45px;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    &> i {
+        font-size: 2em;
+    }
+}
+
+.box-carousel {
+    width: 100%;
+    z-index: 100;
+}
+

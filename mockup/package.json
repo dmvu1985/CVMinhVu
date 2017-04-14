@@ -1,0 +1,29 @@
+{
+  "scripts": {
+    "start": "webpack-dev-server --port 8080 --inline --content-base build/",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.27.3",
+    "eslint": "^3.15.0",
+    "eslint-loader": "^1.7.1",
+    "file-loader": "^0.10.1",
+    "less": "^2.7.2",
+    "node-sass": "^4.5.1",
+    "owl.carousel": "^2.2.0",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.0",
+    "url-loader": "^0.5.8",
+    "vue-i18n": "^6.0.0",
+    "vue-loader": "^11.3.1",
+    "vue-responsive": "^0.1.6",
+    "vue-template-compiler": "^2.2.4",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "vue": "^2.2.4",
+    "vue-router": "^2.3.1"
+  }
+}
