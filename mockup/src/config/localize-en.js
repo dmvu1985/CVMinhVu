@@ -22,7 +22,7 @@ export var localizeEn = {
             birthDay: {
                 title: "birthDay",
                 value: "16 March 1985",
-            },    
+            },
             skype: {
                 title: "skype",
                 value: "duong.minh.vu"
@@ -175,9 +175,9 @@ export var localizeEn = {
                 {
                     work: "creative",
                     process: "width: 90%;"
-                }            
+                }
             ]
-        ]   
+        ]
     },
     skillDeveloper: {
         title: "Developer Skill",
@@ -261,7 +261,6 @@ export var localizeEn = {
                     },
                 ]
             }
-        ] 
+        ]
     }
-
 };

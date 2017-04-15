@@ -4,7 +4,7 @@ export var topLinks = {
             lang: "English",
             locale: "en",
             flag: "flag flag-us mr-xs"
-        }, 
+        },
         {
             lang: "日本語",
             locale: "ja",

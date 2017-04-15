@@ -174,9 +174,8 @@ export var localizeVn = {
                     work: "sáng tạo",
                     process: "width: 90%;"
                 }
-            ]  
-        ]        
-        
+            ]
+        ]
     },
     skillDeveloper: {
         title: "Công nghệ",
@@ -260,6 +259,6 @@ export var localizeVn = {
                     },
                 ]
             }
-        ] 
+        ]
     }
-}; 
+};

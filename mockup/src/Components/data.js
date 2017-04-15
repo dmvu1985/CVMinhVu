@@ -58,7 +58,7 @@ export var education = [
         major: "Software Engineer I",
         period: "2015 - 2016"
     }
-]
+];
 
 export var recommendations = [
     {
@@ -66,4 +66,4 @@ export var recommendations = [
         regency: "HP site manager/ Director of HP Vietnam",
         content: "Vu is the kind of people we focus on with a very different roles and skill set!"
     }
-]
+];

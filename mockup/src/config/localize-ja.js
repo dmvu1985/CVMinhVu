@@ -22,7 +22,7 @@ export var localizeJa = {
             birthDay: {
                 title: "生年月日",
                 value: "1985年3月16日",
-            }, 
+            },
             skype: {
                 title: "スカイプ",
                 value: "duong.minh.vu"
@@ -156,7 +156,7 @@ export var localizeJa = {
                 {
                     work: "テスト",
                     process: "width: 90%;"
-                }            
+                }
             ],
             [
                 {
@@ -175,7 +175,7 @@ export var localizeJa = {
                     work: "発想",
                     process: "width: 90%;"
                 },
-            ]     
+            ]
         ]
     },
     skillDeveloper: {
@@ -260,7 +260,6 @@ export var localizeJa = {
                     },
                 ]
             }
-        ] 
+        ]
     }
-
 };

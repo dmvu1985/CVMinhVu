@@ -2,19 +2,19 @@ import "./css/flags/flags.min.css";
 import Vue from "vue"; //ES6 modules
 import application from "./app.vue";
 import VueI18n from 'vue-i18n';
-import VueRouter from "vue-router"; 
+import VueRouter from "vue-router";
 
 
 //router
 import introdution from "./Components/Module/Introdution/Introdution.vue";
 import home from "./Components/Module/Home/Home.vue";
-import {messages} from "./config/localize.js";
+import { messages } from "./config/localize.js";
 
 
-Vue.use(VueI18n)
+Vue.use(VueI18n);
 
 // set lang
-Vue.config.lang = 'en'
+Vue.config.lang = 'en';
 
 
 const i18n = new VueI18n({
@@ -22,8 +22,8 @@ const i18n = new VueI18n({
   messages, // set locale messages
 });
 
-const routers=[
-  { path: '/Introdution', component: introdution  },
+const routers = [
+  { path: '/Introdution', component: introdution },
   { path: '/', component: home }
 ];
 
@@ -36,7 +36,7 @@ new Vue({
   el: '#app',
   router,
   components: {
-    'app': application 
+    'app': application
   },
   i18n
 });
